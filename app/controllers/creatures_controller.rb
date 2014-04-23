@@ -14,7 +14,9 @@ class CreaturesController < ApplicationController
 		redirect_to "/creatures"
 	end
 
-	# def edit
-
-	# end	
-end	
+# 	 def edit
+# 	 	creature_id = params[:id]
+# 	 	@creatures = Creature.find(creature_id)
+# 	 	render :edit
+# 	 end	
+ end	
