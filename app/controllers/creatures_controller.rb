@@ -12,5 +12,9 @@ class CreaturesController < ApplicationController
 		creature = params.require(:creatures).permit(:name, :kind, :description)
 		Creature.create(creature)
 		redirect_to "/creatures"
-	end	
+	end
+
+	# def edit
+
+	# end	
 end	

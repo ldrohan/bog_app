@@ -1,10 +1,18 @@
+<body>
+<h1>Welcome to the Bog</h1>
+<p></p>
+<a href="/creatures/new">Add A Creature to the Bog</a>
+<p></p>
 <% @creatures.each do |creature| %>
 
     <div>
+
         Name: <%= creature[:name] %> <br>
         Kind: <%= creature[:kind] %> <br>
 		Description: <%= creature[:description] %> <br>
-
+		  ------------------------------
+		<p></p>
     </div>
 
 <% end %>
+</body>
